@@ -1,4 +1,5 @@
 flex-a-sketch: Sketch App
+
 Build a browser version of an Etch-A-Sketch:
 - Beginning grid size is 16x16.
 - Beginning color of the drawing "pen" is black.
