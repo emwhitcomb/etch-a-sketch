@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch-A-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bubblegum+Sans&family=Lacquer&family=Nunito+Sans:wght@600&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lacquer&family=Nunito+Sans:wght@600&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+        
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+    <main class="main-container">
+        <div id="toy-name">flex-a-sketch</div>
+        <div class="grid-container"></div>
+        <div class="controls">
+            <div class="color-pick">
+                <div id="color-label">COLOR: </div>
+                <div class="dot-container">
+                    <div class="dot" id="black-dot"></div>
+                    <div class="dot" id="random-dot"></div>
+                    <div class="dot" id="pick-dot"></div>
+                </div>
+                <div class="button-container">
+                    <button class="color-btn" id="black">BLACK</button>
+                    <button class="color-btn" id="random">RANDOM</button>
+                    <div id="picker">
+                        <button class="color-btn" id="pick">CHOOSE</button>
+                        <input type="color" id="choose-color" />
+                    </div>
+                </div>
+            </div>
+            <button id="erase-btn">ERASE</button>
+        </div>
+        <div id="slider-value">16 x 16</div>
+        <input type="range" id="slider" value="16" min="1" max="100"/>
+    </main>
+    </body>
+</html>
